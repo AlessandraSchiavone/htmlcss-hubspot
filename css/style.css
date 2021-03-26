@@ -39,6 +39,9 @@ body{
     vertical-align: middle;
     font-size:14px;
 }
+.btn-lg{
+    padding:20px 30px;
+}
 .btn-orange{
     color:white;
     background-color: #FE775A;
@@ -54,6 +57,20 @@ body{
     line-height: 20px;
     vertical-align: middle;
 }
+
+.text{
+    padding:20px 0;
+    color:#33475B;
+}
+.desc{
+    line-height: 1.6;
+    font-size: 20px;
+}
+.small{
+    font-size: 14px;
+}
+
+/* barra fissata*/
 .nav-fixed{
     position:fixed;
     width:100%;
@@ -84,9 +101,22 @@ body{
     padding-bottom:20px;
 }
 .jumbotron{
-    background-color: #FFF2EE;
-    height:550px;
+    background-image: url("../img/jumbotron.png");
+    background-color: #FFF4EF; 
+    background-position-x: 100% ;
+    background-position-y: 12%;
+    background-repeat: no-repeat;
+    height:600px;
+    
 }
+.jumbotron h1{
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top:50px;
+    color:#33475B;
+    font-size:60px;
+    font-weight: 800;
+}
+
 #division{
     height: 100px;
     background-color: #AFEBE4;
