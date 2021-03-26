@@ -12,20 +12,32 @@ body{
     clear: both;
 }
 .container{
-    width:80%;
+    width:70%;
     margin:0 auto;
 }
 .float-left{
     float:left;
 }
+.float-right{
+    float: right;
+}
 .w-50{
     width:50%;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
 }
 .text-sx{
     text-align: left;
 }
 .text-dx{
     text-align: right;
+}
+.text-center{
+    text-align: center;
 }
 .border-right{
     padding-right:20px;
@@ -63,7 +75,7 @@ body{
     color:#33475B;
 }
 .desc{
-    line-height: 1.6;
+    line-height: 1.8;
     font-size: 20px;
 }
 .small{
@@ -110,11 +122,11 @@ body{
     
 }
 .jumbotron h1{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top:50px;
     color:#33475B;
     font-size:60px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #division{
@@ -125,4 +137,53 @@ body{
 }
 .color-sky{
     color:#02A6BF;
+}
+/*main*/
+/*first-section*/
+.first-section{
+    background-color: #EAF0F6;
+}
+.subsection1 img{
+    padding-top:50px;
+    width:20%;
+}
+.subsection1 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.subsection2{
+    padding:50px 80px;
+    background-color: white;
+    box-shadow: 2px 2px lightgrey;
+    border-radius: 5px;
+    height:350px;
+}
+.subsection2 img{
+    width:70%;
+    margin-bottom:20px;
+}
+.subsection2 .line{
+    height:75px;
+    width:60%;
+}
+.text-upp{
+    text-transform: uppercase;;
+}
+hr{
+    border: 1px solid grey;
+    margin-left:20px;
+    margin-top:calc(75px/2);
+    vertical-align: middle;
+}
+.circle-orange{
+    color:white;
+    padding:2px 5px;
+    line-height: 14px;
+    vertical-align: middle;
+    font-size: 12px;
+    background-color: #FE775A;
+    border-radius: 50%;;
+}
+.subsection2 li{
+    padding:10px;
 }
