@@ -16,6 +16,7 @@ body{
     width:70%;
     margin:0 auto;
 }
+
 .float-left{
     float:left;
 }
@@ -120,6 +121,10 @@ body{
     font-size:40px;
     font-weight: 900;
 }
+.cell{  
+    width:25%;
+    padding:12px 0;
+}
 /* barra fissata*/
 .nav-fixed{
     position:fixed;
@@ -217,7 +222,7 @@ body{
     vertical-align: middle;
 }
 .subsection2 li{
-    padding:10px;
+    padding:10px 8px 10px 0;
 }
 /*subsezione 3*/
 .col1, .col2, .col3{
@@ -267,12 +272,24 @@ body{
     font-size:18px;
     margin-bottom: 50px;
 }
-.community .cell{  
-    width:25%;
-    padding:15px 0;
-}
+
 .cell .numbers, 
 .cell .small{
     display: block;
     padding:5px 0;
+}
+/*terza sezione*/
+.third-section{
+    background-color: white;
+    height:400px;
+}
+.logos {
+ padding:30px 0;
+}
+.w-70 .row{
+    line-height:60px;
+}
+.img-logo img{
+    width:80%;
+    vertical-align: middle;
 }
