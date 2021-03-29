@@ -16,6 +16,11 @@ body{
     width:70%;
     margin:0 auto;
 }
+.container2{
+    width:85%;
+    margin:0 auto;
+}
+
 
 .float-left{
     float:left;
@@ -23,16 +28,23 @@ body{
 .float-right{
     float: right;
 }
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
 .w-50{
     width:50%;
+}
+.w-60{
+    width:60%;
 }
 .w-70{
     width: 70%;
     padding-left:30px;
 }
-.w-30{
-    width: 30%;
-}
+
 .text-sx{
     text-align: left;
 }
@@ -125,6 +137,9 @@ body{
     width:25%;
     padding:12px 0;
 }
+h1, h2 , h3{
+    font-family: 'Roboto', sans-serif;
+}
 /* barra fissata*/
 .nav-fixed{
     position:fixed;
@@ -166,7 +181,6 @@ body{
     
 }
 .jumbotron h1{
-    font-family: 'Roboto', sans-serif;
     padding-top:50px;
     color:#33475B;
     font-size:60px;
@@ -191,7 +205,6 @@ body{
     width:20%;
 }
 .subsection1 h2{
-    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
 }
@@ -210,9 +223,7 @@ body{
     width:40%;
     margin-bottom:20px;
 }
-.subsection2 h3, .subsection2 h2{
-    font-family: 'Roboto', sans-serif;
-}
+
 .subsection2 .line{
     height:43px;
     width:75%;
@@ -264,7 +275,6 @@ body{
     padding:50px 0 ;
 }
 .second-section h2{
-    font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
     font-size:40px;
 }
@@ -279,9 +289,14 @@ body{
     padding:5px 0;
 }
 /*terza sezione*/
+
 .third-section{
     background-color: white;
-    height:400px;
+
+}
+/*logo*/
+.w-70 {
+    padding-left: 75px;
 }
 .logos {
  padding:30px 0;
@@ -292,4 +307,22 @@ body{
 .img-logo img{
     width:80%;
     vertical-align: middle;
+}
+/*photo*/
+.photo{
+    padding:30px 0;
+}
+.photo .w-40 h2{
+    font-size: 36px;
+}
+.photo .w-40 .desc{
+    font-size: 17px;
+}
+.photo .w-40 p,
+.photo .w-40 .btn-lg{
+    margin-top:18px;
+}
+.w-60 img{
+    margin-right: 20px;
+    width:39%;
 }
