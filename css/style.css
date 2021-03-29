@@ -326,7 +326,10 @@ h1, h2 , h3{
 footer{
     background-color: #32495B;
     color:white;
-    height:700px;
+}
+/*prima sezione footer*/
+.list-contact{
+    margin:50px 0;
 }
 .list-block h2{
     font-size: 18px;
@@ -344,5 +347,21 @@ footer{
     color:#32495B;
 }
 .list-contacts .list-inline li{
+    color:#CBD6E2;
+}
+/*seconda sezione*/
+.languages .list-inline {
+    padding-bottom:20px;
+}
+.languages .list-inline a{
+    font-size:16px;
+    color:#CBD6E2;
+}
+/*copyright*/
+.copyright{
+    padding: 30px 0;
+}
+
+.copyright .list-inline li{
     color:#CBD6E2;
 }
