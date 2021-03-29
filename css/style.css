@@ -51,7 +51,7 @@ body{
 .text-center{
     text-align: center;
 }
-.border-right{
+.border-right-blu{
     padding-right:20px;
     border-right: 2px solid #32495B ;
 }
@@ -113,7 +113,7 @@ body{
     background-color: #FE775A;
     border-radius: 50%;;
 }
-.border-right{
+.border-right-white{
     border-right: 1px solid white;
 }
 .border-bottom{
@@ -135,6 +135,17 @@ body{
 }
 h1, h2 , h3{
     font-family: 'Roboto', sans-serif;
+}
+.list-inline a:not(.btn):hover,
+.list-block a:not(.btn):hover{
+    text-decoration: underline;
+    color:#00A7BA;
+}
+
+.btn-orange:hover,
+.btn-white:hover,
+.btn-lg:hover {
+    background-color: rgb(252, 208, 208);
 }
 /* barra fissata*/
 .nav-fixed{
@@ -370,15 +381,3 @@ footer{
     color:#CBD6E2;
 }
 
-.list-inline a:not(.btn):hover,
-.list-block a:not(.btn):hover{
-    text-decoration: underline;
-    color:#00A7BA;
-}
-
-
-.btn-orange:hover,
-.btn-white:hover,
-.btn-lg:hover {
-    background-color: rgb(252, 208, 208);
-}
