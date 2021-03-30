@@ -390,3 +390,44 @@ footer{
     color:#CBD6E2;
 }
 
+/* chat-bot*/
+.chatbot{
+    position:fixed;
+    bottom:1%;
+    right:1%;
+}
+#chat-icon{
+    height: 60px;
+    line-height: 60px;
+    width:60px;
+    background-color: #425D78;
+    border: 1px solid grey;
+    border-radius: 50%;
+    text-align: center;
+}
+#chat-icon img{
+    vertical-align: middle;
+    width:60%;
+}
+.content-chat-text{
+    width:240px;
+    background-color: white;
+    color:#425D78;
+    border: 1px solid #425D78;
+    border-radius:5px;
+    position: relative;
+}
+.content-chat-text img{
+    width:20%;
+    position:absolute;
+    top:-30%;
+    left:50%;
+    transform: translate(-50%,30%);
+}
+.cross{
+    padding:5px 10px;
+}
+.content-chat-text p{
+    width:90%;
+    padding: 40px 0 10px 10px;
+}
