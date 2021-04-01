@@ -248,15 +248,15 @@ h1, h2 , h3{
     border-radius: 5px;
 }
 .col1{
-   margin:50px 65px 50px 0px;
+   margin:5% 5% 5% 0px;
    
 }
 .col3{
-    margin:50px 0px 50px 65px;
+    margin:5% 0px 5% 5%;
     
 }
 .col2{
-    margin:50px 0;
+    margin:5% 0;
  
 }
 .subsection3 img{
